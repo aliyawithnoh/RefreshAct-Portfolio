@@ -1,10 +1,10 @@
 :root {
     --color-primary: #12283f;
-    --color-accent: #a79dfd;
-    --color-accent-hover: #9084f0;
+    --color-accent: #8176e4;
+    --color-accent-hover: #7e72d8;
     --color-accent-soft: rgba(167, 157, 253, 0.15);
-    --color-bg-light: #ffffff;
-    --color-bg-off: #f8fafc;
+    --color-bg-light: #d9c7e0;
+    --color-bg-off: #f7f7f7;
     --nav-height: 80px;
     --transition-speed: 0.3s;
 }
@@ -15,14 +15,14 @@ body {
     --text-main: var(--color-primary);
     --text-muted: #475569;
     --nav-bg: rgba(18, 40, 63, 0.95);
-    --section-alt: #f1f5f9;
+    --section-alt: #c9acd4;
     --border-color: rgba(167, 157, 253, 0.2);
 }
 
 body.dark {
     --bg-main: var(--color-primary);
     --text-main: #e2e8f0;
-    --text-muted: #94a3b8;
+    --text-muted: #768497;
     --nav-bg: rgba(10, 22, 36, 0.98);
     --section-alt: #1a3652;
     --border-color: rgba(167, 157, 253, 0.3);
@@ -72,7 +72,7 @@ h1, h2, h3 {
 .nav-container {
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
